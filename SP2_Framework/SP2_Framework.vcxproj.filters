@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Shader">
+      <UniqueIdentifier>{f3f83e39-a183-4a0a-8ee3-d8dbbe04fba5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Camera System">
+      <UniqueIdentifier>{3026697e-980b-4cd9-a5c1-a9bc37c3a3d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Collision detection System">
+      <UniqueIdentifier>{fbfaae8c-13e5-47c3-8607-30d24ab02be8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Scene">
+      <UniqueIdentifier>{9d8d13ab-afd9-4eeb-a4f7-37c1fd11d398}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Camera System">
+      <UniqueIdentifier>{1eeb1587-0c50-433c-9b81-e755c336631c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Collision detection System">
+      <UniqueIdentifier>{d2ea6dd7-8a25-4755-bc71-abf73b83ad47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Scene">
+      <UniqueIdentifier>{346850a0-70af-4823-a51f-3493d2df5474}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\MeshBuilder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Application.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Mesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\vertex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Material.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Utility.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Light.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\LoadTGA.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\LoadOBJ.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\shader.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Camera.h">
+      <Filter>Header Files\Camera System</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\FirstPersonCamera.h">
+      <Filter>Header Files\Camera System</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Collision_HitBox.h">
+      <Filter>Header Files\Collision detection System</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Collision_detection.h">
+      <Filter>Header Files\Collision detection System</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Collision_Node.h">
+      <Filter>Header Files\Collision detection System</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\HitBox_Database.h">
+      <Filter>Header Files\Collision detection System</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Scene.h">
+      <Filter>Header Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Scene_SuperMarket.h">
+      <Filter>Header Files\Scene</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\Application.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MeshBuilder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Mesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\LoadOBJ.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\shader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Utility.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\LoadTGA.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FirstPersonCamera.cpp">
+      <Filter>Source Files\Camera System</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Camera.cpp">
+      <Filter>Source Files\Camera System</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Collision_Node.cpp">
+      <Filter>Source Files\Collision detection System</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Collision_HitBox.cpp">
+      <Filter>Source Files\Collision detection System</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Collision_detection.cpp">
+      <Filter>Source Files\Collision detection System</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\HitBox_Database.cpp">
+      <Filter>Source Files\Collision detection System</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Scene_SuperMarket.cpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Shader\Blending.fragmentshader">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="Shader\LightSource.fragmentshader">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="Shader\Shading.fragmentshader">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="Shader\Shading.vertexshader">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="Shader\SimpleFragmentShader.fragmentshader">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="Shader\SimpleVertexShader.vertexshader">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="Shader\Text.fragmentshader">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="Shader\Texture.fragmentshader">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="Shader\Texture.vertexshader">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="Shader\TransformVertexShader.vertexshader">
+      <Filter>Shader</Filter>
+    </None>
+  </ItemGroup>
+</Project>
