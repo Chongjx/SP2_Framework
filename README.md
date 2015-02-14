@@ -2,7 +2,7 @@
 
 This will be the framework for SP2
 * Pls do not commit and push your debug files
-* Only commit and push cpp/h files
+* Only commit and push cpp/h files (if you got include new filter, rmb push the filters file too)
 
 *****ABOUT THIS FRAMEWORK*****
 - FPScamera added in (mouse and keyboard control)
